@@ -15,8 +15,8 @@ public:
 	
 	Kare(Kare &a1)
 	{
-		uzun=a1.uzun;	
-		kisa=a1.kisa;
+		uzun=a1.uzun;	// buradaki uzun  oluşturduğumuz "knesne" nesnesi 
+		kisa=a1.kisa;	// a1.uzun ise parametre olarak girilen Kare sınıfının g1 nesnesinin uzun degiskeni
 	}
 
 	void alan()
