@@ -19,8 +19,8 @@ public:
 
 void Daire::alan(Daire &d1)		//private üyelere erişebilir. ANCAK  bir nesne kullanmak zorunda
 {								// Nesne kullanmayıp doğrudan fonksiyon üzerinden private kısma erişmek için friend'i kullanmak zorundayız
-	cout<<"Alan="<<d1.yaricap*d1.yaricap*d1.pi<<endl;		//  Git hesabının Cpp-Object-Oriented kısmından Arkadaş_fonk_2.cpp adlı kısımdan
-}															//  friend yapısının nasıl kullanıldığını görebilirsiniz
+	cout<<"Alan="<<d1.yaricap*d1.yaricap*d1.pi<<endl;		//  Git hesabının Cpp-Object-Oriented-Programming kısmından Arkadaş_fonk_2.cpp adlı kısımdan
+}								//  friend yapısının nasıl kullanıldığını görebilirsiniz
 
 int main()
 {
